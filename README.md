@@ -9,4 +9,4 @@ tested it. Feel free to comment or find me on the web at http://michaelgrace.org
 [Ubuntu Install Scripts][ubuntuinstallscripts]
 
 
-[ubuntuinstallscripts]: ubuntu-install-scripts/README.md
+[ubuntuinstallscripts]: code-junk-drawer/ubuntu-install-scripts/README.md
