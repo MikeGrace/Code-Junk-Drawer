@@ -15,7 +15,7 @@ Xvfb :42 -ac -screen 0 1000x1200x30 &
 export DISPLAY=:42
 
 # getting example python script to run selenium test
-curl # TODO add github raw source url here
+curl https://raw.github.com/MikeGrace/Code-Junk-Drawer/master/ubuntu-install-scripts/python-selenium-take-screenshot-and-save-source-to-file/test.py > test.py
 
 # Start selenium server and send to background
 java -jar selenium-server.jar &
