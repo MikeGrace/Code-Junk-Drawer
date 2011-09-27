@@ -15,9 +15,9 @@ echo "Updating apt-get"
 echo "===================================================="
 echo ""
 echo ""
-sudo apt-get install python-software-properties
+sudo apt-get install --assume-yes --quiet python-software-properties
 sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner"
-sudo apt-get update
+sudo apt-get update --assume-yes --quiet
 
 
 echo ""
@@ -27,7 +27,7 @@ echo "Installing required packages"
 echo "===================================================="
 echo ""
 echo ""
-sudo apt-get install curl python-pip python sun-java6-jre sun-java6-plugin sun-java6-fonts imagemagick xvfb
+sudo apt-get install --assume-yes --quiet curl python-pip python sun-java6-jre sun-java6-plugin sun-java6-fonts imagemagick xvfb
 sudo pip install selenium
 
 
@@ -99,7 +99,7 @@ echo "..................."
 ls screenshot.png && ls source.html
 echo "..................."
 echo ""
-echo "And it only took $SECONDS to do it!"
+echo "And it only took $SECONDS seconds to do it!"
 echo "===================================================="
 echo ""
 echo ""
