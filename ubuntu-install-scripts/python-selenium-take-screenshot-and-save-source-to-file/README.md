@@ -18,6 +18,8 @@ STEPS
 Copy it!
 
     sudo apt-get install curl
+    
     curl https://raw.github.com/MikeGrace/Code-Junk-Drawer/master/ubuntu-install-scripts/python-selenium-take-screenshot-and-save-source-to-file/install.sh > install.sh
     chmod +x install.sh
     sudo ./install.sh
+    
